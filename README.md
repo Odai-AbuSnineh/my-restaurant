@@ -1,7 +1,18 @@
 # my-restaurant
+
+
+
+## Home page Wireframe
+![Home page Wireframe](/assets/My%20First%20Board%20-%20Home%20page%20wireframe.jpg)
+
+
+## About page Wireframe
+![About page Wireframe](/assets/My%20First%20Board%20-%20About%20page%20wireframe.jpg)
+
+***
+
 ## **Eat Your Heart Out**
 Traditional food
-
 
 ### Type of Dishes
 1. Mansaf
