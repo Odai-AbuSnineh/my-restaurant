@@ -1,18 +1,79 @@
 * {
+  font-family: 'Fredoka', sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+header {
+  position: relative;
+  align-content: stretch;
+  background-color: #62B6B7;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
 
-nav ul li a,
-nav ul li {
+.logo img {
   display: inline;
+  1 position: absolute;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  width: 8vw;
+  border-radius: 30%;
+  margin-left: 3vw
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  position: absolute;
+  left: 25vw;
+  top: 4vh
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
   background-color: black;
   color: white;
-  width: 50px;
-  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1vw;
+  margin: 0.1vw;
+  width: 12.5vw;
+  height: 4vh;
+}
 
+nav ul li .contact {
+  margin-left: 6vw;
+  width: 15vw;
+  background-color: #ea0a0a;
+}
+
+h1 {
+  font-size: 7vh;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+h1,
+h2,
+input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  width: 50%;
+  height: 15%;
+  border-radius: 0.9vh;
+  text-align: center;
 }
