@@ -11,7 +11,7 @@ header {
   position: relative;
   align-content: stretch;
   background-color: #62B6B7;
-  height: 45vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -60,90 +60,30 @@ nav ul li .contact {
   background-color: #ea0a0a;
 }
 
-h1,
-h2,
-input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  align-self: center;
-  width: 50%;
-  height: 15%;
-  border-radius: 0.9vh;
+h1 {
+  font-size: 7vh;
   text-align: center;
-  font-size: 2.5vh;
-}
-
-h1 {
-  font-size: 7vh;
-}
-
-h2 {
-  font-size: 3vh;
-}
-
-h1 {
-  font-size: 7vh;
-}
-
-h2 {
-  font-size: 4vh;
 }
 
 /* main*/
-  h3 {
-  line-height: 10vh;
-  text-align: center;
-  font-size:2em;
-  height: 10vh;
-  background-color: #CBEDD5;
-}
 
 main {
   background-color: #CBEDD5;
-  height: 35vh;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
-main div img,
-main a div p {
-  border: 6px solid #62B6B7;
-  border-radius: 3vw;
+main ul li
+ {
+  margin-left: 4vw;
+  font-size: 3.5vh;
+  margin-bottom: 10vh;
 }
-
-a {
-  text-decoration: none;
-}
-
-main div p {
-  padding: 1vw;
-  background-color: white;
-  text-align: center;
-}
-
-main div {
-  position: relative;
-}
-
-main div div {
-  position: absolute;
-  background-color: #ffffff;
-  padding: 1.5vh;
-  border-radius: 1vw;
-  top: 15px;
-  left: -25px;
-  box-shadow: -3px 2px 4px 3px #62B6B7;
-}
-
-
-
 
 
 /* footer */
