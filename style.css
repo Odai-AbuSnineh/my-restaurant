@@ -5,6 +5,8 @@
   margin: 0;
 }
 
+/* header */
+
 header {
   position: relative;
   align-content: stretch;
@@ -56,14 +58,6 @@ nav ul li .contact {
   background-color: #ea0a0a;
 }
 
-h1 {
-  font-size: 7vh;
-}
-
-h2 {
-  font-size: 4vh;
-}
-
 h1,
 h2,
 input {
@@ -76,4 +70,53 @@ input {
   height: 15%;
   border-radius: 0.9vh;
   text-align: center;
+  font-size: 2.5vh;
+}
+
+h1 {
+  font-size: 7vh;
+}
+
+h2 {
+  font-size: 4vh;
+}h1 {
+  font-size: 7vh;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+/* main*/
+main {
+  background-color: #CBEDD5 ;
+  height: 50vh;
+
+}
+
+
+
+/* footer */
+
+footer {
+  background-color: #62B6B7;
+  height: 10vh;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+
+.copyright {
+  position: absolute;
+  left: 10%;
+  font-size: 1.5vw;
+
+}
+
+.social {
+  position: absolute;
+  right: 2%;
 }
